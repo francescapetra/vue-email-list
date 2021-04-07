@@ -4,6 +4,36 @@
   box-sizing: border-box;
 }
 body{
-  background-color: lightgreen;
+  background: rgb(12,13,4);
+  background: -webkit-linear-gradient(bottom, rgba(12,13,4,1) 0%, rgba(242,246,58,1) 100%);
+  background: -o-linear-gradient(bottom, rgba(12,13,4,1) 0%, rgba(242,246,58,1) 100%);
+  background: linear-gradient(to top, rgba(12,13,4,1) 0%, rgba(242,246,58,1) 100%);
   font-family: 'Lato', sans-serif;
+  height: 100vh;
+}
+#root{
+  width: 350px;
+  background-color: black;
+  margin: 150px auto;
+  padding: 20px 30px;
+  line-height: 30px;
+  border-radius: 10px;
+}
+h1{
+  margin-bottom: 20px;
+  font-style: italic;
+  color: yellow;
+
+}
+ol{
+  padding-left: 10px;
+  color: yellow;
+}
+li{
+  padding-left: 10px;
+  font-size: 18px;
+}
+a{
+  text-decoration: none;
+  color: yellow;
 }
